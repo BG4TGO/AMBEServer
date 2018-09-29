@@ -677,7 +677,7 @@ int main(int argc, char **argv)
 
     fprintf(stdout, "AMBEserver: Starting...\n");
     fprintf(stdout, "AMBEserver: version %s git #%.7s\n", DV3000_VERSION, gitversion);
-    fprintf(stdout, "AMBEserver: RESETSOFTCFG/TEAM6061 Edition\n");
+    fprintf(stdout, "AMBEserver: RESETSOFTCFG/NANO3080 Edition\n");
 
     if (override_ver) {
         fprintf(stdout, "AMBEserver: Version and ProdID override enabled\n");
