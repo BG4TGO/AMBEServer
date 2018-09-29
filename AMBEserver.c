@@ -560,7 +560,7 @@ void usage() {
     fprintf(stderr, "-c COM Port Number\n");
     fprintf(stderr, "-v Print version and exit\n");
     fprintf(stderr, "-x Debug mode\n");
-    fprintf(stderr, "-o Override Product and Version ID (Adds TEAM6160 USB Voco support to Analog_Bridge etc)\n");
+    fprintf(stderr, "-o Override Product and Version ID (Adds NANO3080 USB Voco support to Analog_Bridge etc)\n");
 #else
     fprintf(stderr, "Usage: AMBEserver [-d] [-r] [-s speed] [-p port] [-i tty] [-v] [-x] [-o]\n\n");
     fprintf(stderr, "-d Daemon Mode\n");
@@ -570,7 +570,7 @@ void usage() {
     fprintf(stderr, "-i tty of the AMBE Board (Defaults to dev/ttyUSB0)\n");
     fprintf(stderr, "-v Print version and exit\n");
     fprintf(stderr, "-x Debug mode\n");
-    fprintf(stderr, "-o Override Product and Version ID (Adds TEAM6160 USB Voco support to Analog_Bridge etc)\n");
+    fprintf(stderr, "-o Override Product and Version ID (Adds NANO3080 USB Voco support to Analog_Bridge etc)\n");
 #endif
     exit(1);
 }
